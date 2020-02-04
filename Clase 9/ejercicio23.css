@@ -1,0 +1,23 @@
+.tablacuadros1{
+    border: 1px solid white;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.cuadronaranjachico{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(235, 122, 57);
+    margin: 0 auto;
+}
+
+.cuadroazulchico{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 30, 128);
+    margin: 0 auto;
+}
+.celdagris{
+    background-color: grey;
+}

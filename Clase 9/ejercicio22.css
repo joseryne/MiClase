@@ -1,0 +1,22 @@
+.cuadroazul{
+    background-color: blue;
+   /* border-color: blue solid;*/
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.cuadronaranja{
+    background-color: rgb(228, 118, 54);
+    /* border-color: blue solid;*/
+     width: 300px;
+     height: 300px;
+     margin: 0 auto;
+}
+
+.cuadroverdegrande{
+    background-color: rgb(14, 144, 43);
+    /* border-color: blue solid;*/
+     width: 500px;
+     height: 500px;
+     margin: 0 auto;
+}

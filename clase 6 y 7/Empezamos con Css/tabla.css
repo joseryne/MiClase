@@ -1,0 +1,16 @@
+.tabla{
+    width: 200px;
+    height: 200px;
+}
+.celdafondo{
+    background-color: rgb(212, 173, 73) ;
+}
+.celdaverde{
+    background-color: darkslategray;
+}
+.celdavioleta{
+    background-color: rgb(92, 26, 92);
+}
+.celdaazul{
+    background-color: rgb(23, 150, 182) ;
+}

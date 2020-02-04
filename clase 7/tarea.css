@@ -1,0 +1,35 @@
+.cuadroizquidatex{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+}
+
+.cuadrocentrotex{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.cuadroderechatex{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: end;
+}
+
+.cuadronormaltex{
+    border: 1px solid black;
+    width: 150px;
+    height: auto;
+
+}
+
+
+
+.cuadrojustificartex{
+    border: 1px solid black;
+    width: 150px;
+    height: auto;
+    text-align: justify;
+}

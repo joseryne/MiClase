@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One&display=swap");
+.registrar {
+            background-color: rgb(77, 8, 204);
+            width: 500px;
+
+            border-radius: 15px 15px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        border: 0px solid #000000;
+
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(212,204,212,1);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(212,204,212,1);
+        box-shadow: 10px 10px 5px 0px rgba(212,204,212,1);
+
+}
+
+.letra {
+        line-height: 50px;
+    /*	border-radius: 15px;*/
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        font-family: "Fugaz One", cursive;
+}

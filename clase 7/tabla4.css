@@ -1,0 +1,25 @@
+
+#cuadrosupinf{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+#cuadroizqderec{
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+
+}
+
+#cuadrosupderec{
+
+}
+
+#cuadrosupinfizq{
+
+}

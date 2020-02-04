@@ -1,0 +1,11 @@
+.p16{
+    font-size: 16px;
+}
+
+.p32{
+    font-size: 32px;
+}
+div{
+    border: 1px solid black;
+    width: 5em;
+}

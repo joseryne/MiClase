@@ -1,0 +1,16 @@
+h2{
+    color: cornflowerblue;
+    background-color: blueviolet;
+}
+span{
+    color: white;
+    background-color: red;
+}
+p{
+    color: white;
+    background-color: dimgray;
+}
+h3{
+    color: red;
+    background-color: rgb(182, 112, 159);
+}

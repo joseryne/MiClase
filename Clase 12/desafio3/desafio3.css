@@ -1,0 +1,92 @@
+.margen {
+	margin: 20px;
+}
+
+.verde-oscuro {
+	background-color: rgb(7, 109, 7);
+	width: 100%;
+	height: 150px;
+}
+
+.icono {
+	background-color: rgb(7, 109, 7);
+	width: 200px;
+	height: 200px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+	padding: 50px 30px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.fondo-blanco {
+	background-color: white;
+}
+
+.bordecuadro {
+	background-color: rgb(230, 230, 230);
+	border-radius: 25px 25px 25px 25px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border: 0px solid #000000;
+	text-align: center;
+	-webkit-box-shadow: -1px -1px 15px -4px rgba(0, 0, 0, 1);
+	-moz-box-shadow: -1px -1px 15px -4px rgba(0, 0, 0, 1);
+	box-shadow: -1px -1px 15px -4px rgba(0, 0, 0, 1);
+	margin: 10px;
+	min-width: 100px;
+	max-width: 800px;
+}
+.icono-imagen {
+	width: 100px;
+	height: 100px;
+	border-radius: 36px 36px 36px 36px;
+	margin: 50px;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+.margen-tabla {
+	margin: 30px;
+}
+
+
+.td-verde{
+    background-color: rgb(54, 156, 76);
+}
+
+.footer {
+	width: 100%;
+	background-color: rgb(7, 109, 7);
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: large;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.texto{
+    text-align: center;
+}
+.texto-imagen{
+	text-align: justify;
+	color: green;
+	padding: 30px;
+}
+.td1{
+	vertical-align: top;
+}
+.div1{
+	margin: 0 auto;
+}
+.td2{
+	padding: 20px;
+}

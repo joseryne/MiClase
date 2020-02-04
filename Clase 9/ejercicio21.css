@@ -1,0 +1,32 @@
+td, th, table, tr{
+    border:1px solid black;
+    text-align: center;
+  
+}
+.celdastitulo{
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+.celdastitulo2{
+    background-color: gray;
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.colorrosado{
+text-align:center;
+background-color: rgb(139, 63, 139);
+}
+
+.colorverde{
+    text-align: center;
+    background-color: rgb(7, 66, 7);
+}
+
+.sinCentrar{
+    text-align: left;
+}

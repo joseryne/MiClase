@@ -1,0 +1,16 @@
+td{
+    border: 1px solid black;
+}
+.tr1{
+    background-color: rgb(33, 33, 144);
+}
+.tr2{
+    background-color: rgb(97, 81, 241);
+}
+
+.tabla{
+    background-color: black;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+}

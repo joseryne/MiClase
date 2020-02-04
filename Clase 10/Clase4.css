@@ -1,0 +1,10 @@
+.p16{
+    font-size: 16px;
+}
+.p32{
+    font-size: 32px;
+}
+div{
+    border: 1px solid black;
+    width: 5ex; /*el ex me divide a la midad la unidad en referente al em (la proporcion es casi la mitad de un em)*/
+}
