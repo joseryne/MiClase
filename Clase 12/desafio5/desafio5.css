@@ -20,16 +20,39 @@
     height: 50%;
     border-collapse: collapse;
     padding: 20px;
-    background-color:#ffffff;
+    background-color: yellow);
+    padding: 10px;
+    /*
+    border-radius: 24px 24px 24px 24px; -moz-border-radius: 24px 24px
+	24px 24px; -webkit-border-radius: 24px 24px 24px 24px; border: 0px
+    solid #796363;
+    */
+}
+
+.tabla{
+
+    width: 330px;
+    height: 400px;
+}
+
+.table-calculadora-blanca{
+   
+    width: 50%;
+    height: 400px;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color:#d35d5d;
+    
     border-radius: 24px 24px 24px 24px; -moz-border-radius: 24px 24px
 	24px 24px; -webkit-border-radius: 24px 24px 24px 24px; border: 0px
     solid #796363;
 }
+
 .cuadro-gris{ 
-    height: 25%;
-    width: 25%;
+    height: 50px;
+    width: 70%;
    /* border-color: 1px solid #000000;*/
-    background-color: rgb(158, 155, 155);
+    background-color: rgb(177, 169, 169);
     border-radius: 24px 24px 24px 24px; -moz-border-radius: 24px 24px
 	24px 24px; -webkit-border-radius: 24px 24px 24px 24px; border: 0px
     solid white;
@@ -37,4 +60,42 @@
 .margen-gris{
     margin: 20px 20px 0px 20px;
     
+}
+
+.boton-verde{
+    background-color: rgb(53, 187, 104);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    line-height: 70px;
+}
+.boton-agua{
+    background-color: aquamarine ;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 70px;
+}
+.boton-naranja{
+    background-color: rgb(236, 121, 55) ;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 70px;
+}
+
+.boton-circular{
+    background-color: rgb(10, 39, 95);
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    line-height: 70px;
 }
