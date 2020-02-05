@@ -15,7 +15,6 @@
     background-color: rgb(181, 238, 219);
 }
 .tr-calculadora-blanca{
-   
     width: 50%;
     height: 50%;
     border-collapse: collapse;
@@ -79,6 +78,7 @@
     height: 50px;
     border-radius: 10px;
     line-height: 70px;
+    font-family: 'Poppins', sans-serif;
 }
 .boton-naranja{
     background-color: rgb(236, 121, 55) ;
@@ -88,6 +88,7 @@
     height: 50px;
     border-radius: 10px;
     line-height: 70px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .boton-circular{
@@ -98,4 +99,5 @@
     height: 50px;
     border-radius: 200px;
     line-height: 70px;
+    font-family: 'Poppins', sans-serif;
 }
