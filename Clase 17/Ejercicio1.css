@@ -1,0 +1,26 @@
+span b{
+    color: green;
+}
+b span{
+    background-color: cyan;
+}
+
+h1 .normal{
+ font-size: 10px;
+}
+span span{
+    color: yellow;
+}
+.azul{
+    color: blue;
+}
+.amarillo{
+    color: yellow;
+    font-size: 10px;
+}
+.amarillo.azul{
+    color: green;
+}
+span .azul.amarillo{
+    font-size: 50px;
+}
