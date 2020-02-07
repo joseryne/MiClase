@@ -1,0 +1,21 @@
+.teal{
+    background-color: teal;
+    width: 200px;
+    margin-bottom: 100px;
+}
+.coral{
+    background-color: coral;
+    width: 200px;
+    padding-top: 50px;
+}
+span{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    background-color: teal;
+}
+i{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: coral;
+}

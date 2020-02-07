@@ -1,0 +1,12 @@
+div{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+   /*font-size: 0px;*/
+   
+}
+section{
+    font-size: 100px;
+    text-align: center;
+}
