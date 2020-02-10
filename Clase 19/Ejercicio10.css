@@ -1,0 +1,35 @@
+.modo-grid{
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
+    gap: 10px;
+}
+
+.modo-grid > div {
+    background-color: rgb(211, 81, 37);
+}
+/*#seccion_verde{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: rgb(162, 196, 95);
+}Esto es lo mismo que lo de abajo pero el de abajo tiene menos lineas de codigo*/
+#seccion_verdes{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: rgb(162, 196, 95);
+}
+#seccion_azul{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: rgb(89, 103, 231);
+}
+
+#seccion_mostaza{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: rgb(146, 113, 23);
+}
+
