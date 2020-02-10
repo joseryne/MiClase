@@ -1,0 +1,12 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns:  50% 200px 20% 30%;
+    grid-template-rows: 50px 100px 200px;
+
+}
+
+.modo-grid > div {
+    border: 1px solid white;
+    background-color: grey;
+  
+}
