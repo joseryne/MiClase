@@ -1,0 +1,50 @@
+.modo-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
+	width: 500px;
+	grid-template-areas:
+		"header"
+		"section"
+		"footer";
+}
+.modo-grid > div {
+	border: 1px solid white;
+	background-color: rgb(52, 203, 230);
+}
+.texto {
+	display: inline-block;
+	text-align: justify;
+	height: auto;
+	width: 200px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+header {
+	grid-area: header;
+	background-color: black;
+	height: 60px;
+}
+
+.section-atras{
+    grid-area: section;
+}
+
+.section-sobre {
+	grid-area: section;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    z-index: 1;
+}
+
+.imagen {
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+}
+footer {
+	grid-area: footer;
+	background-color: black;
+	height: 60px;
+}
