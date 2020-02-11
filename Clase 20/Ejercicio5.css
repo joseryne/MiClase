@@ -1,0 +1,47 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 100px);
+    background-color: black;
+    gap: 10px;
+    width: 300px;
+    justify-items: stretch;
+    align-self: start;
+}
+    
+div {
+min-width: 30px;
+min-height: 30px;
+background-color: rgb(0,113,117);
+}
+#arriba-izquierda{
+justify-self: left;
+align-self: baseline;
+background-color: yellow;
+}
+#arriba-centro{
+    justify-self: center;
+    align-self: baseline;
+    background-color: green;
+}
+#arriba-derecha{
+    justify-self: right;
+    align-self: baseline;
+    background-color: red;
+}
+#abajo-izquierda{
+    justify-self: left;
+    align-self: flex-end;
+    background-color: aqua;
+}
+#abajo-centro{
+        justify-self: center;
+        align-self: flex-end;
+        background-color: orangered;
+}
+#abajo-derecha{
+    justify-self: right;
+    align-self: flex-end;
+    background-color:violet;
+}
+    

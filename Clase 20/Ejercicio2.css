@@ -1,0 +1,36 @@
+.modo-grid{
+display: grid;
+width: 500px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 150px);
+gap: 10px;
+grid-template-areas: "verde     azul        azul"
+                    "verde      azul        azul"
+                    "amarillo   amarillo    coral";
+}
+
+.modo-grid > div {
+    background-color: pink;
+}
+#box_verde{
+    /*grid-column: 2/3;
+    grid-row: 1/2;*/
+    grid-area: verde;
+    background-color: green;
+}
+#box_azul{
+    /*grid-column: 1/3;
+    grid-row: 2/3;*/
+    grid-area: azul;
+    background-color: blue;
+}
+#box_rojo{
+    /*grid-column: 3/4;
+    grid-row: 2/4;*/
+    grid-area: coral;
+    background-color: coral;
+}
+#box_amarillo{
+    grid-area: amarillo;
+    background-color: yellow;
+}

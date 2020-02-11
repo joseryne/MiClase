@@ -1,0 +1,32 @@
+.modo-grid{
+display: grid;
+width: 500px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 150px);
+gap: 10px;
+grid-template-areas: "N1    NEGRA   N2"
+                    "AZUL   AZUL    ROJO"
+                    "N3     N4      ROJO";
+}
+
+.modo-grid > div {
+    background-color: pink;
+}
+#box_negro{
+    /*grid-column: 2/3;
+    grid-row: 1/2;*/
+    grid-area: NEGRA;
+    background-color: black;
+}
+#box_azul{
+    /*grid-column: 1/3;
+    grid-row: 2/3;*/
+    grid-area: AZUL;
+    background-color: blue;
+}
+#box_rojo{
+    /*grid-column: 3/4;
+    grid-row: 2/4;*/
+    grid-area: ROJO;
+    background-color: red;
+}
