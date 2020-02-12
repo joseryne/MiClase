@@ -1,0 +1,6 @@
+#modoId .modoClase{
+    color: green;
+}
+#modoId.modoClase{
+    color: coral;
+}

@@ -1,0 +1,48 @@
+/*#modoId{
+    color: green;
+}
+.modoClase{
+    color: yellow;
+} *//*gana el verde por la prioridad*/
+/*#modoId{
+    color: green;
+}
+.modoClase{
+    color: yellow !important;
+} *//*gana el amarillo por la palabra imporantan por la prioridad*/
+/*#modoId{
+    color: green;
+}
+.modoClase{
+    color: yellow;
+    font-size: 50px;
+    background-color: teal;
+} *//*gana el verde y me toma las otras 2 condiciones del los otros elementos*/
+/*p {
+    color: green;
+}
+.modoClase{
+    color: yellow;
+    font-size: 50px;
+    background-color: teal;
+} *//*gana el amarillo y toma las otras 2 condiciones del los otros elementos*/
+/*#modoId p{
+    color: green;
+}
+#modoId.modoClase{
+    color: coral;
+} /*gana el coral por los pesos*/
+
+/*.modoClase1#modoId p{
+    color: green;
+}
+span{
+    color: coral;
+} /*no gana ninguno xq no esta esa clase los pesos*/
+/*.modoClase{
+    color: green !important;
+}
+p{
+    color: coral !important;
+}
+se optiene el verde por el peso de la clase*/

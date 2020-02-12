@@ -1,0 +1,25 @@
+/*p + span {
+    background-color: coral;
+    color: cornflowerblue;
+    font-weight: bolder;
+}  Todos los p pero inmediatamente despues viene el span*/
+/*section > span{
+    background-color: coral;
+    color: cornflowerblue;
+    font-weight: bolder;
+} Todos span que estan en el section  */
+/*span + p {
+    background-color: coral;
+    color: cornflowerblue;
+    font-weight: bolder;
+} los span que luego viene una p*/
+/*section span{
+    background-color: coral;
+    color: cornflowerblue;
+    font-weight: bolder;
+} Todos los span que estan en el section*/
+/*p ~ span{
+    background-color: coral;
+    color: cornflowerblue;
+    font-weight: bolder;
+}*/
