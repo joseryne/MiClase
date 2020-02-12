@@ -23,28 +23,48 @@
 header {
 	grid-area: header;
 	background-color: black;
-	height: 60px;
+	/*height: 60px;*/
+	color: white;
+	text-align: center;
+	font-size: 50px;
 }
-
 .section-atras{
     grid-area: section;
 }
-
 .section-sobre {
 	grid-area: section;
     background-color: rgba(0, 0, 0, 0.685);
-    color: white;
-    z-index: 1;
+	color: white;
+	text-align: center;
+	z-index: 1;
+	padding: 20px;
 }
-
 .imagen {
 	width: 250px;
 	text-align: center;
 	display: inline-block;
 	margin: 20px;
 }
+.imagen-cohete{
+	width: 150px;
+}
+
+.boton{
+	width: 250px;
+	height: 50px;
+    border: 5px solid green;
+    border-radius: 7px;
+    color: white;
+    /*font-size: 36px;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
 footer {
 	grid-area: footer;
 	background-color: black;
-	height: 60px;
+	/*height: 60px;*/
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
 }
