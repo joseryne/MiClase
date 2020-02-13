@@ -1,0 +1,16 @@
+/*body :nth-child(1), body :nth-child(4){
+    background-color: red;
+    color: white;
+}
+body span:nth-child(3) {
+    background-color: red;
+    color: white;
+}
+body :nth-child(n) {
+    background-color: red;
+    color: white;
+}*/
+body p:nth-child(n) {
+    background-color: red;
+    color: white;
+}

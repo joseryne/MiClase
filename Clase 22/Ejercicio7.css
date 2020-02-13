@@ -1,0 +1,22 @@
+table, tbody, th, tr, td{
+    border: 1px solid black; 
+     color: white;
+}
+tbody>tr:first-of-type{
+    background-color: teal;
+  
+}
+tbody>tr:last-of-type{
+    background-color: black;
+  
+}
+tbody > :nth-child(2n){
+    background-color:blue;
+}
+tbody > :nth-child(2n+1){
+    background-color:rgb(4, 4, 73);
+ }
+table{
+    border-collapse: collapse;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.modo-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 100px);
+    width: 300px;
+    cursor: pointer;
+}
+.verde {
+	background-color: teal;
+}
+.rosado {
+	background-color: rgb(236, 99, 236);
+}
+.rojo {
+	background-color: rgb(236, 62, 62);
+}
+.azul {
+	background-color: rgb(22, 36, 163);
+}
+.verde:hover{
+    background-color: rgb(0, 255, 255);
+}
+.rosado:hover{
+    background-color:rgb(240, 191, 240);
+}
+.rojo:hover{
+    background-color: rgb(248, 128, 128);
+}
+.azul:hover{
+    background-color:rgb(125, 136, 233);
+}

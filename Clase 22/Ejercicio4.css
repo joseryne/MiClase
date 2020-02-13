@@ -1,0 +1,8 @@
+/*body > span:nth-last-of-type(1), body > span:nth-last-of-type(2){
+    background-color: red;
+    color: white;
+}*/
+body > :nth-child(n):not(span) {
+    background-color: red;
+    color: white;
+}
