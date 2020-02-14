@@ -1,0 +1,12 @@
+p::before{
+    content: "start!";
+    font-size: italic;
+    color: teal;
+}
+
+p::after{
+    content: "end";
+    font-size: bolder;
+    color: coral;
+}
+/*conten y display tienen que estar para activar el before y after*/

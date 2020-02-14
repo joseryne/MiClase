@@ -1,0 +1,18 @@
+span::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(like.png);
+    margin: 20px;
+    vertical-align: middle;
+}
+p::after{
+    content: "";
+    display: inline-block;
+    background: url(like.png);
+    width: 24px;
+    height: 24px;
+    margin: 20px;
+    vertical-align: middle;
+}

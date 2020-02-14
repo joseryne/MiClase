@@ -1,0 +1,33 @@
+/*span::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(like.png);
+    margin: 20px;
+    vertical-align: middle;
+}
+p::after{
+    content: "";
+    display: inline-block;
+    background: url(like.png);
+    width: 24px;
+    height: 24px;
+    margin: 20px;
+    vertical-align: middle;
+}*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    transition: background-color 1s, width 1s, height 1s, font-size 2s;
+    color: white;
+    font-size: 5px;
+    text-align: center;
+}
+div:hover{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+}

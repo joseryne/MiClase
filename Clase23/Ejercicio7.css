@@ -1,0 +1,31 @@
+.miBoton{
+
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    transition: width 1s;
+}
+
+
+
+
+.miBoton::before{
+    content:"";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin: 5px;
+    background: url(like.png);
+    vertical-align: middle;
+    
+}
+
+.miBoton:hover{
+    width: 300px;    
+}
+
+.miBoton>input{
+    width: 70%;
+    border-width: 0px;
+    outline: none;
+}

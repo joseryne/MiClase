@@ -1,0 +1,20 @@
+/*.texto:focus{
+color: white;
+background-color: blue;
+border: 1px solid blue;
+border-radius: 7px;
+outline: none;
+}*/
+/*.texto::placeholder{
+    color: rgb(177, 35, 35);
+}*/
+.color:link{
+    color: green;
+}
+.color:visited{
+    color: red;
+}
+.color:active{
+    background-color: green;
+    color: white;¨
+}

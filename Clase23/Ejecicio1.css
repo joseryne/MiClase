@@ -1,0 +1,19 @@
+.miBoton{
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+    color: white;
+    width: fit-content;
+
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+.miBoton:hover{
+    background-color: rgb(0, 30, 200);
+}
+.miBoton:active{
+    background-color: rgb(88, 188, 212);
+    padding: 7px 17px 7px 17px;
+    margin: 11px 3px 3px 3px;
+}
