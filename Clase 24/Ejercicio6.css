@@ -1,0 +1,35 @@
+section{
+    width: 700px;
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;    
+    background-color: coral;
+    margin: 10px;
+}
+.b1{
+    float: left;
+}
+.b2{
+    float: left;
+}
+.b3{
+    float: left;
+    clear: both;
+}
+.b4{
+    float: right;
+
+}
+.b5{
+    float: right;
+}
+.b6{
+    float: right;
+    clear: both;
+}
+.b7{
+    float: left;
+    clear: both;
+}

@@ -1,0 +1,16 @@
+div{
+    width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.imagen-pug-izq{
+    float: left;
+    width: 200px;
+}
+.imagen-pug-derec{
+    float: right;
+    width: 200px;
+}
+h2{
+    clear: both;
+}
