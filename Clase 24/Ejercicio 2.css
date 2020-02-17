@@ -1,0 +1,12 @@
+.flotar{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+.block{
+    display: inline-block;
+    background-color: teal;
+    width: 200px;
+    height: 150px;
+}
