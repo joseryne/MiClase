@@ -1,0 +1,31 @@
+div{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    color: black;
+    background-color: coral;
+}
+p{
+    display: none;
+}
+@media only screen and (max-width: 780px)
+{
+    .div-1{ 
+        display: none;
+    }
+    .p-1{ display: block;}
+}
+@media only screen and (max-width: 520px)
+{
+    .div-2{ 
+        display: none;
+    }
+    .p-2{ display: block;}
+}
+@media only screen and (max-width: 320px)
+{
+    .div-3{ 
+        display: none;
+    }
+    .p-3{ display: block;}
+}

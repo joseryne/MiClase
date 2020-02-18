@@ -1,0 +1,43 @@
+.modo-grid {
+	display: grid;
+	width: 500px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: repeat(3, minmax(150px, auto));
+	grid-template-areas:
+		"verde     naranja naranja"
+		"verde     rosado rosado";
+}
+
+div{
+    text-align: center;
+    padding: 50px;
+}
+.img-tama{
+    width: 50px;
+    height: 50px;
+}
+.verde {
+	grid-area: verde;
+	background-color: teal;
+}
+.rosado {
+	grid-area: rosado;
+	background-color: pink;
+}
+.naranja {
+	grid-area: naranja;
+	background-color: rgb(243, 145, 109);
+}
+
+@media only screen and (orientation: portrait) {
+	.modo-grid {
+		display: grid;
+		width: 500px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(3, minmax(150px, auto));
+		grid-template-areas:
+			"verde       verde "
+			"rosado     naranja"
+			"rosado     naranja";
+	}
+}
