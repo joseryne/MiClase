@@ -1,0 +1,31 @@
+/*.modo-flex{
+    display: flex;   
+    width: 300px;
+}*/
+.modo-flex > div {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;   
+}
+/*.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}*/
+/*.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}*/
+/*.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+}*/
+.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+}

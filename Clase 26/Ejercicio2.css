@@ -1,0 +1,25 @@
+/*.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  */ /* se desborda y va hacia abajo
+}*/
+.modo-flex > div {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;   
+}
+/*.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;   /* se desborda y va hacia arriba*/
+/*}*/
+.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;   /* se desborda y la comprime lo mas que pueda sin subirla o bajarla*/
+}

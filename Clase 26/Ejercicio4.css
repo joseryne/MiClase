@@ -1,0 +1,14 @@
+.modo-flex > div {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;   
+}
+.modo-flex{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;   /* se desborda y la comprime lo mas que pueda sin subirla o bajarla*/
+    border: 1px solid black;
+    justify-content: center; /* centra todo dividiendo en espacios iguales*/
+}
