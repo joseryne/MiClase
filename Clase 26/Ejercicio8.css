@@ -1,0 +1,62 @@
+.container {
+    margin: 0 auto;
+    width: 750px;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+}
+.card {
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.img-64 {
+    min-width: 64px;
+    height: 64px;
+    margin: 0px 15px 0px 5px;
+}
+.no-wrap {
+    flex-wrap: nowrap;
+}
+.align-items-center {
+    align-items: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-center {
+    text-align: center;
+}
+.w-200 {
+    width: 200px;
+}
+.button-text {
+    display: flex;
+    margin-top: 20px;
+    width: 270px;
+    height: 35px;
+    border-radius: 10px 13px 13px 10px;
+    align-items: center;
+    background-color: rgb(18, 145, 230);
+    border: 2px solid rgb(18, 145, 230);
+}
+.button-text > span {
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
+.button-text > input {
+    flex-grow: 1;
+    height: 100%;
+    outline: 0px;
+    border-width: 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 5px 0px 5px;
+}

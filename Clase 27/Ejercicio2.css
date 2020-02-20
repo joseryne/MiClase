@@ -1,0 +1,76 @@
+body{
+    padding: 50px;
+    background-color: rgb(231, 231, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.modo-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(150px, auto)
+                        minmax(150px, auto);
+    grid-template-areas: 
+    "header     header  header"
+    "nav        section aside";
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    grid-area: header;
+    color: black;
+    text-align: center;
+    font-size: 30px ;
+}
+.tags{
+    width: 25%;
+    grid-area: nav;
+    color: rgb(75, 75, 75);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7em;
+}
+.start{align-self: flex-start;}
+section{
+    width: 50%;
+    grid-area: section;
+    color: rgb(75, 75, 75);
+    font-family: 'Raleway', sans-serif;
+}
+aside{
+    width: 25%;
+    grid-area: aside;
+    color: rgb(75, 75, 75);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+.modo-flex{
+    display: flex;
+    align-items: center;
+}
+.modo-flex-grap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.tags-azul{
+    background-color: rgb(93,136,255);
+    color: black;
+    margin: 10px;
+}
+.tags-amarillo{
+    background-color: rgb(214,204, 68);
+    color: rgb(68, 67,0);
+    margin: 10px;
+}
+.tags-verde{
+  background-color: rgb(42, 199, 146);
+    color: rgb(0,82,41);  
+    margin: 10px;
+}  
+.tags-rojo{ 
+    background-color: rgb(218, 81, 76);
+    color: rgb(51, 0, 0);
+    margin: 10px;
+}

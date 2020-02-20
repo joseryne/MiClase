@@ -1,0 +1,71 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: minmax(150px, auto)
+                        minmax(500px, auto)
+                        minmax(150px, auto);
+    grid-template-areas: 
+    "header     header"
+    "nav        section"
+    "footer     footer";
+    gap: 30px;
+    margin: 0 auto;
+    width: 940px;
+}
+header{
+    grid-area: header;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: teal;
+}
+.text-center{
+    text-align: center;
+}
+nav{
+    grid-area: nav;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: steelblue;
+    line-height: 30px;
+    margin: 10px;
+}
+section{
+    grid-area: section;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+section > div>div>h2 {
+    color: teal;
+}
+section > div >div>p{
+    text-align: justify;
+    color: grey;
+}
+.text-justify{
+    text-align: justify;
+    color: grey;
+}
+footer{
+    grid-area: footer;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: teal;
+}
+.modo-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.modo-flex > div{
+    background-color: rgb(226, 226, 226);
+    width: 30%;
+    max-width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.modo-flex-footer{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
