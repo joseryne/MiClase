@@ -1,0 +1,45 @@
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li:hover {
+	color: white;
+	overflow: hidden;
+	background-color: rgb(0, 82, 82);
+}
+ul {
+    background-color: teal;
+    position: fixed;
+}
+@media only screen and (max-width: 527px) {
+	li {
+		text-align: center;
+		list-style: none;
+		border-bottom: 1px solid black;
+		line-height: 40px;
+	}
+	ul {
+		padding-left: 0px;
+	}
+}
+@media only screen and (min-width: 528px) {
+	ul {
+		list-style: none;
+		overflow: hidden;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	nav ul li a {
+		padding-right: 0px;
+	}
+	li {
+		display: block;
+		float: left;
+		padding: 20px;
+		border-right: 1px solid black;
+	}
+}
+body{
+    height: 2500px;
+}
+/*web inspiration*/ 

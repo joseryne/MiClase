@@ -1,0 +1,29 @@
+section{
+    height: 180px;
+    width: 350px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: fixed;
+    display: flex;/* despliega en forma lineal*/
+    flex-direction: column;/* lo coloca como columna hacia abajo*/
+    align-items: center; /*centra mi items*/
+    bottom: 0px; /* lo coloca hacia abajo*/
+    right: 0px; /*lo coloca hacia la posicion 0 a la derecha*/
+}
+h2{
+text-align: center;
+}
+h3{
+text-align: center;
+}
+.boton{
+background-color: red;
+color: white;
+border-radius: 10px;
+text-align: center;
+height: 25px;
+width: 70px;
+
+}
