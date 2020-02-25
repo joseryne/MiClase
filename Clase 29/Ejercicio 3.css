@@ -1,0 +1,13 @@
+.main{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    right: 0px; /*modificar y ver que ocurre importante practicarlo*/
+}
