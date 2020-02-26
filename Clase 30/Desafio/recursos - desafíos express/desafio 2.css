@@ -1,0 +1,40 @@
+.container-imagen{
+    background-image: url("pug 2.jpg");
+    height: 400px;
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.barra-negra{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.562);
+    top: 400px;
+    transition: all 1s;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.container-imagen:hover>.barra-negra{
+    width: 700px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.562);
+    top: 200px;
+}
+.texto{
+    justify-content: center;
+    color: white;   
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.boton{
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    width: 150px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+}

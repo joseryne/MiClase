@@ -1,0 +1,14 @@
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+.container:hover > .box{
+ background-color: green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}

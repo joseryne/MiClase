@@ -1,0 +1,17 @@
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+.container:hover > .box:nth-child(1){
+ background-color: yellow;
+}
+.container:hover > .box:nth-child(2){
+    background-color: cyan;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
