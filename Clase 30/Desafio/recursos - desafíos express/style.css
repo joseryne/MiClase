@@ -1,16 +1,37 @@
-div {
+/*div {
 	position: relative; /* como tiene abosulta y quiere que tome la referencia padre*/
-    width: 256px;
+ /*   width: 256px;
     height: 256px;
     overflow: hidden;
     border-radius: 200px;/*deformo el contenedor para que me pueda quedar circular*/
-}
+/*}
 
 .img-2 { 
     position: absolute;/*para que pueda hacer la transition*/
-    left:256px;/* para que se posicione en 0 y pueda sobreponerse a la imagen*/
-	transition: left 5s;
+ /*   left:256px;/* para que se posicione en 0 y pueda sobreponerse a la imagen*/
+/*	transition: left 5s;
 }
 div:hover .img-2 { /*quiero que sea siempre la ultima imagen*/
-	left: 0px;
+/*	left: 0px;
+}
+*/
+.img-circle{
+    position: relative;
+    height: 256px;
+    width: 256px;
+    border-radius: 200px;
+    padding: 0px;
+    overflow: hidden;
+}
+.img-circle > img:last-of-type{
+    position: absolute;
+    top: 0px;
+    left: 256px;
+    width: 256px;
+    height: 256px;
+    z-index: 1;
+    transition: 0.5s left;
+}
+.img-circle:hover img:last-of-type{
+    left: 0px;
 }

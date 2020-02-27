@@ -1,0 +1,31 @@
+.container .background{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: url("pug 2.jpg");
+    overflow: hidden;
+}
+.container .description{
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    padding: 40px 0px 50px 0px;
+    opacity: 0;
+    background-color: rgba(0,0,0, 0.521);
+    text-align: center;
+    color: white;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+.container > .description > .buttom {
+    padding: 5px 10px 5px 10px;
+    background-color: orangered;
+    font-weight: bolder;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.container > .background:hover >.description{
+opacity: 1;
+bottom: 0px;
+}

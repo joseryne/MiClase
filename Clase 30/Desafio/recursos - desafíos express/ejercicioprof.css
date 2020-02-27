@@ -11,6 +11,6 @@
     left:256px;/* para que se posicione en 0 y pueda sobreponerse a la imagen*/
 	transition: left 5s;
 }
-.container:hover >img: :last-of-type{ /*quiero que sea siempre la ultima imagen*/
+.container:hover > img: last-of-type{ /*quiero que sea siempre la ultima imagen*/
 	left: 0px;
 }
