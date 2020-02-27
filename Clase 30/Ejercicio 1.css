@@ -1,0 +1,17 @@
+div{
+    position: relative;
+}
+.tamano{
+    height: 200px;
+    width: 200px;
+}
+.img-2{
+    position: absolute; /*no se ddara cuenta que esta es como un fantasma aparecera con los detalles de abajo*/
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    transition: all 1000ms;
+}
+.img-2:hover{
+    opacity: 1; /*cuando esta en uno aparecera*/
+}

@@ -1,0 +1,16 @@
+.container {
+	position: relative; /* como tiene abosulta y quiere que tome la referencia padre*/
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 200px;/*deformo el contenedor para que me pueda quedar circular*/
+}
+
+.container > img:last-of-type { 
+    position: absolute;/*para que pueda hacer la transition*/
+    left:256px;/* para que se posicione en 0 y pueda sobreponerse a la imagen*/
+	transition: left 5s;
+}
+.container:hover >img: :last-of-type{ /*quiero que sea siempre la ultima imagen*/
+	left: 0px;
+}
