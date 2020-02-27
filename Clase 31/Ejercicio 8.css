@@ -1,0 +1,11 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 20px;
+}
+textarea{
+    resize: none;
+}
