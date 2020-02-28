@@ -6,6 +6,30 @@ form{
     border-radius: 7px;
     padding: 20px;
 }
+.checkbox-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.input-name{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 textarea{
+    width: 100%;
     resize: none;
+}
+button{
+    background-color: blue;
+    border-width: 0px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+}
+.panel-size{
+    margin: 15px 0px;
 }
